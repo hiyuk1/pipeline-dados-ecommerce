@@ -24,8 +24,8 @@ Pipeline de dados para análise de e-commerce com segmentação de clientes usan
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/hiyuk1/teste.git
-cd teste
+git clone https://github.com/hiyuk1/pipeline-dados-ecommerce.git
+cd pipeline-dados-ecommerce
 ```
 
 2. Crie um ambiente virtual e ative:
