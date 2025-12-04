@@ -78,7 +78,7 @@ def segment_customers(df: pd.DataFrame) -> pd.DataFrame:
 
     kmeans = KMeans(n_clusters=3, random_state=42, n_init=10)
     rfm['Cluster'] = kmeans.fit_predict(rfm_scaled)
-    rfm['Perfil_Cliente'] = rfm['Cluster'].map({0: 'Bronze', 1: 'Prata', 2: 'Ouro'})
+    rfm['Perfil_Cliente'] = rfm['Cluster'].map({0: 'Prata', 1: 'Bronze', 2: 'Ouro'})
     
     return rfm
 
