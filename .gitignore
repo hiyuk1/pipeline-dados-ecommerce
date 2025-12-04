@@ -1,0 +1,19 @@
+# Arquivos de ambiente (NUNCA commitar!)
+.env
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Arquivos gerados
+*.png
+
+# IDE
+.vscode/
+.idea/
